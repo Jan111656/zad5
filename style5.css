@@ -1,0 +1,47 @@
+header >{
+    display: flex;
+    text-align: center;
+}
+#banner{
+    background-color: #1C59A7;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: flex ;
+    font-size: 80%;
+}
+main{
+    display: flex;
+}
+main > section.left{
+    background-color: #3A70B5;
+    height: 200px;
+    width: 33%;
+    
+}
+main > section.middle{
+    background-color: #5A8AC8;
+    width: 33%;
+    height: 200px;
+}
+main > section.right{
+    background-color:#86ACDD ;
+    text-align: center;
+    width: 34%;
+    height: 200px;
+}
+section.bottom{
+    background-color:#86ACDD ;
+    text-align: center;
+    height: 300px;
+}
+footer{
+    background-color: #1C59A7;
+    color: white;
+}
+#odsyłacz{
+    background-color: yellow;
+    color: blue;
+    margin: 10px;
+}
